@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak — Zhahrani Aulia Putri</title>
+<meta name="description" content="Hubungi Zhahrani Aulia Putri melalui WhatsApp, email, LinkedIn, atau formulir pesan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text">Zhahrani<span class="brand-accent">.</span></span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="Navigasi utama">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang Saya</a></li>
+        <li><a href="experience.html">Pengalaman</a></li>
+        <li><a href="skills.html">Keahlian</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="certificates.html">Sertifikat</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="nav-cta is-active">Kontak</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="kicker">Kontak</span>
+      <h1>Mari Terhubung</h1>
+      <p>Terbuka untuk peluang kerja di bidang administrasi kantor. Silakan hubungi saya melalui kontak di bawah ini.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container contact-layout">
+
+      <div>
+        <div class="contact-info-card">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </span>
+          <div>
+            <h3>Telepon / WhatsApp</h3>
+            <p><a href="https://wa.me/6282320822825" target="_blank" rel="noopener">0823-2082-2825</a></p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+          </span>
+          <div>
+            <h3>Email</h3>
+            <p><a href="mailto:zhahranilinkeidn0@gmail.com">zhahranilinkeidn0@gmail.com</a></p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </span>
+          <div>
+            <h3>LinkedIn</h3>
+            <p><a href="https://linkedin.com/in/zhahraniauliaputri" target="_blank" rel="noopener">linkedin.com/in/zhahraniauliaputri</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h2>Kirim Pesan</h2>
+        <p class="form-note" style="margin-top:-8px; margin-bottom:20px;">Formulir ini masih berupa demo, pesan belum terkirim ke server mana pun.</p>
+
+        <p class="form-success" id="formSuccess">Terima kasih! Pesan Anda telah "terkirim" (formulir demo).</p>
+
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Alamat Email</label>
+            <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+          </div>
+          <div class="form-row">
+            <label for="subject">Subjek</label>
+            <input type="text" id="subject" name="subject" placeholder="Perihal pesan Anda">
+          </div>
+          <div class="form-row">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <p class="footer-brand">Zhahrani Aulia Putri</p>
+      <p class="footer-tagline">Administrative Professional yang siap mendukung kelancaran operasional kantor Anda.</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="about.html">Tentang Saya</a></li>
+      <li><a href="experience.html">Pengalaman</a></li>
+      <li><a href="skills.html">Keahlian</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="certificates.html">Sertifikat</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Kontak</a></li>
+    </ul>
+    <div class="footer-contact">
+      <a href="tel:+6282320822825">0823-2082-2825</a>
+      <a href="mailto:zhahranilinkeidn0@gmail.com">zhahranilinkeidn0@gmail.com</a>
+      <a href="https://linkedin.com/in/zhahraniauliaputri" target="_blank" rel="noopener">linkedin.com/in/zhahraniauliaputri</a>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2026 Zhahrani Aulia Putri. Dibuat dengan sepenuh hati.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
